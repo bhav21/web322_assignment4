@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/theme.css" />
+    <title>Bhavna Achar</title>
+  </head>
+  <body>
+    <div id="nav">
+      <nav>
+        <a href="/">Home</a>
+        <a href="/storefront">Store</a>
+        <a href="/list">List</a>
+        <a href="/table">Table</a>
+        <a href="/audio">Audio</a>
+        <a href="/video">Video</a>
+      </nav>
+    </div>
+    <div id="content">
+      <h1>The HTML5 &lt;video&gt; Element</h1>
+      <video controls>
+        <source
+          src="https://scs.senecac.on.ca/~tanvir.alam/shared/fall-2018/web222/movie.mp4"
+          type="video/mp4"
+        />
+        <source
+          src="https://scs.senecac.on.ca/~tanvir.alam/shared/fall-2018/web222/movie.ogg"
+          type="video/ogg"
+        />
+        Oops, the video cannot be played!
+      </video>
+      <p>
+        This is a video element, which is used to embed a media player that
+        supports video playback into the document. I have included two sources
+        for the same video - one is a .mp4 file, and the other is a .ogg file.
+        This is a good practice, as some browsers do not support certain file
+        types. If multiple sources are provided, the browser chooses the most
+        suitable one for playback.
+      </p>
+    </div>
+  </body>
+</html>
