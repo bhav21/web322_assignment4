@@ -4,7 +4,7 @@
 body {
     font-family: Lato, sans-serif;
     margin: 0px;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(201, 201, 201);
     font-size: 16px;
 }
 
@@ -40,13 +40,16 @@ nav {
     justify-content: space-around;
 }
 
-
-/* || HEADERS */
-
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color:white;
 }
 
 .card-img-top {
