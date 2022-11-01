@@ -16,38 +16,42 @@
   <body>
     <div id="nav">
       <nav>
-        <div class="navname">Bhavna Achar</div>
-        <div class="navitems">
-          <a href="/" class="navlink">HOME</a>
-          <a href="/storefront" class="navlink">STORE</a>
-          <a href="/list" class="navlink">LIST</a>
-          <a href="/table" class="navlink">TABLE</a>
-          <a href="/audio" class="navlink">AUDIO</a>
-          <a href="/video" class="navlink">VIDEO</a>
+        <div class="brand-name">Bhavna Achar</div>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="/" class="navbar-link">HOME</a></li>
+            <li><a href="/storefront" class="navbar-link">STORE</a></li>
+            <li><a href="/list" class="navbar-link">LIST</a></li>
+            <li><a href="/table" class="navbar-link">TABLE</a></li>
+            <li><a href="/audio" class="navbar-link">AUDIO</a></li>
+            <li><a href="/video" class="navbar-link">VIDEO</a></li>
+          </ul>
         </div>
       </nav>
     </div>
-    <div id="content">
-      <h1>The HTML5 &lt;video&gt; Element</h1>
-      <video controls>
-        <source
-          src="https://scs.senecac.on.ca/~tanvir.alam/shared/fall-2018/web222/movie.mp4"
-          type="video/mp4"
-        />
-        <source
-          src="https://scs.senecac.on.ca/~tanvir.alam/shared/fall-2018/web222/movie.ogg"
-          type="video/ogg"
-        />
-        Oops, the video cannot be played!
-      </video>
-      <p>
-        This is a video element, which is used to embed a media player that
-        supports video playback into the document. I have included two sources
-        for the same video - one is a .mp4 file, and the other is a .ogg file.
-        This is a good practice, as some browsers do not support certain file
-        types. If multiple sources are provided, the browser chooses the most
-        suitable one for playback.
-      </p>
+    <div class="container">
+      <div id="content">
+        <h1>The HTML5 &lt;video&gt; Element</h1>
+        <video controls>
+          <source
+            src="https://scs.senecac.on.ca/~tanvir.alam/shared/fall-2018/web222/movie.mp4"
+            type="video/mp4"
+          />
+          <source
+            src="https://scs.senecac.on.ca/~tanvir.alam/shared/fall-2018/web222/movie.ogg"
+            type="video/ogg"
+          />
+          Oops, the video cannot be played!
+        </video>
+        <p>
+          This is a video element, which is used to embed a media player that
+          supports video playback into the document. I have included two sources
+          for the same video - one is a .mp4 file, and the other is a .ogg file.
+          This is a good practice, as some browsers do not support certain file
+          types. If multiple sources are provided, the browser chooses the most
+          suitable one for playback.
+        </p>
+      </div>
     </div>
   </body>
 </html>
